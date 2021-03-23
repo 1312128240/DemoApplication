@@ -13,10 +13,11 @@ class MainActivity : AppCompatActivity() {
 
         setClick()
 
-        println("提交到分支1")
+        println("提交到分支2")
     }
 
     private fun setClick(){
+
         findViewById<View>(R.id.btn_camer).setOnClickListener {
             val i=Intent(this,CamerXActivity::class.java)
             startActivity(i)
