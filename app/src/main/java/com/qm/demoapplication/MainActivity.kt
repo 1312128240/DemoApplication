@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setClick()
+
+        println("修改内容提交1")
     }
 
     private fun setClick(){
