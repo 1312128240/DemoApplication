@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         setClick()
 
-        println("修改内容提交1")
+        println("提交到分支1")
     }
 
     private fun setClick(){
